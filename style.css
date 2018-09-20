@@ -5,23 +5,33 @@ h1 {
 }
 
 body {
-  column-count: 2;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  color: hsl(220, 100%, 65%);
 
 }
 
-.personalInfo {
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
 
+.personal-info {
+  color: hsl(220, 100%, 65%);
   border-right: 10px hsl(48, 82%, 51%) solid;
-  width: 40%;
+  width: 65%;
   padding-top: 20%;
 
 }
 
-.otherInfo {
-  text-align: inherit;
+.other-info {
+  text-align: left;
 }
 
 .date {
-  color: hsl(220, 100%, 65%);
+  margin-top: 5px;
   font-style: italic;
 }
