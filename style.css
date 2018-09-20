@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px;
+  color: hsl(48, 82%, 51%);
+  font-family: 'Montserrat';
+}
+
+body {
+  column-count: 2;
+
+}
+
+.personalInfo {
+
+  border-right: 10px hsl(48, 82%, 51%) solid;
+  width: 40%;
+  padding-top: 20%;
+
+}
+
+.otherInfo {
+  text-align: inherit;
+}
+
+.date {
+  color: hsl(220, 100%, 65%);
+  font-style: italic;
+}
